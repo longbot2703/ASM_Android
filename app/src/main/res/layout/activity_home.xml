@@ -9,17 +9,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ha Noi"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:id="@+id/tvTitle"
         android:textSize="40dp"
         android:gravity="center"
-        android:layout_marginTop="100dp"/>
+        android:layout_marginTop="50dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="It may"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:id="@+id/tvIconPhrase"
         android:textSize="30dp"
         android:gravity="center"
@@ -29,9 +29,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="27°"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:id="@+id/tvTemperatureNow"
-        android:textSize="150dp"
+        android:textSize="100dp"
         android:gravity="center"
         android:layout_marginTop="20dp"/>
 

@@ -10,11 +10,13 @@
         android:layout_height="wrap_content"
         android:text="3AM"
         android:gravity="center"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
     <ImageView
         android:id="@+id/ivIcon"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
         android:scaleType="centerCrop"
         android:src="@mipmap/ic_launcher"/>
     <TextView
@@ -23,6 +25,7 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:gravity="center"
-        android:text="27.6"/>
+        android:text="27.6"
+        android:textColor="@color/white"/>
 
 </LinearLayout>
